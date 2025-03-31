@@ -1,5 +1,5 @@
 # M2851-Mar25
-Tipología y ciclo de vida de los datos Práctica 1 UOC Mar2025
+Tipología y ciclo de vida de los datos PRA1 UOC Mar2025
 
 # BOE Data Scraper
 
