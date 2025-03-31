@@ -56,7 +56,7 @@ El proceso se organiza en cuatro apartados:
     - **Expediente**. Código o identificador del contrato o anuncio, que facilita la identificación y seguimiento del proceso
     - **Fecha**. La fecha de publicación del anuncio en formato dd/mm/aaaa, obtenida a partir de la fecha que aparece en la URL del día correspondiente
     - **Tipo**. Clasificación del anuncio, que indica si se trata de una "Licitación" o "Contratación", según el texto del anuncio
-    - **Objeto**. Descripción breve del objeto del contrato, indicando qué se pretende contratar o licitar
+    - **Objeto**. Descripción breve del objeto del contrato, indicando qué se pretende licitar o contratar
     - **Procedimiento**. Detalles sobre el procedimiento de contratación, extraídos de la sección de análisis
     - **Ambito_geografico**. Información sobre el ámbito geográfico al que se dirige el anuncio, por ejemplo, una comunidad autónoma o región
     - **Materias_CPV**. Datos sobre las materias, basados en el código CPV y la descripción asociada, que permite clasificar el tipo de obra o servicio
