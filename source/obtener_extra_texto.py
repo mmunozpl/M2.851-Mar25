@@ -14,7 +14,7 @@ REQUEST_TIMEOUT: int = 3
 def obtener_extra_texto(enlace_html: str) -> Dict[str, str]:
     """
     Extrae información adicional del bloque de texto
-    (normalmente con id "textoxslt") de la página del anuncio
+    (normalmente con id "textoxslt") de cada página del anuncio
 
     Args:
         enlace_html (str): URL de la página del anuncio
