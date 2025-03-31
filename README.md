@@ -51,7 +51,7 @@ El proceso se organiza en cuatro apartados:
   - Aplica un delay entre solicitudes para no saturar el servidor
   - Crea un DataFrame con pandas y guarda el resultado en un archivo CSV dentro del directorio `CSV`
   - El dataset tiene los siguientes atributos
-    - "Institucion". Nombre de la entidad u organismo que publica el anuncio, extraído de los encabezados () de la página del BOE
+    - **Institucion**. Nombre de la entidad u organismo que publica el anuncio, extraído de los encabezados () de la página del BOE
     - "Organismo responsable"
     - "Expediente"
     - "Fecha"
