@@ -1,0 +1,16 @@
+**Licencia CC BY-NC-SA 4.0**
+
+Este dataset se libera bajo la licencia CC BY-NC-SA 4.0.
+Puedes compartir y adaptar el dataset, siempre que:
+- Otorgues el crédito adecuado al autor,
+- No uses el dataset con fines comerciales, y
+- Distribuyas las modificaciones bajo la misma licencia.
+
+Fuente de los datos de dataset
+Boletín Oficial del Estado. (2014–2024).
+Sección V. Anuncios – A. Contratación del Sector Público.
+Recuperados desde el 01-01-2014 al 31-12-2024 de https://www.boe.es
+
+Para más información, consulta
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode.es
