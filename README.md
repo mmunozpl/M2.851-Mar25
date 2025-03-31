@@ -52,18 +52,17 @@ El proceso se organiza en cuatro apartados:
   - Crea un DataFrame con pandas y guarda el resultado en un archivo CSV dentro del directorio `CSV`
   - El dataset tiene los siguientes atributos
     - **Institucion**. Nombre de la entidad u organismo que publica el anuncio, extraído de los encabezados () de la página del BOE
-    - "Organismo responsable"
-    - "Expediente"
-    - "Fecha"
-    - "Modalidad"
-    - "Tipo"
-    - "Objeto"
-    - "Procedimiento"
-    - "Ambito_geografico"
-    - "Materias_CPV"
-    - "Codigos_CPV"
-    - "Observaciones"
-    - "Enlace HTML"
+    - **Organismo responsable**. Indica la parte responsable del anuncio, obtenido mediante una expresión regular que identifica la parte del texto que sigue a "de"
+    - **Expediente**. Código o identificador del contrato o anuncio, que facilita la identificación y seguimiento del proceso
+    - **Fecha**. La fecha de publicación del anuncio en formato dd/mm/aaaa, obtenida a partir de la fecha que aparece en la URL del día correspondiente
+    - **Tipo**. Clasificación del anuncio, que indica si se trata de una "Licitación" o "Contratación", según el texto del anuncio
+    - **Objeto**. Descripción breve del objeto del contrato, indicando qué se pretende contratar o licitar
+    - **Procedimiento**. Detalles sobre el procedimiento de contratación, extraídos de la sección de análisis
+    - **Ambito_geografico**. Información sobre el ámbito geográfico al que se dirige el anuncio, por ejemplo, una comunidad autónoma o región
+    - **Materias_CPV**. Datos sobre las materias, basados en el código CPV y la descripción asociada, que permite clasificar el tipo de obra o servicio
+    - **Codigos_CPV**. Campo complementario que contiene otros códigos CPV asociados al anuncio, extraídos de la sección de texto
+    - **Observaciones**. Comentarios adicionales que pueden incluir notas o detalles relevantes sobre el anuncio
+    - **Enlace HTML**. URL que dirige a la página completa y  detallada del anuncio, desde donde se han extraído los datos enriquecidos
 
 ## Buenas Prácticas y Consideraciones Éticas
 
