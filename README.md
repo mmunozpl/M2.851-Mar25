@@ -60,7 +60,7 @@ El proceso se organiza en cuatro apartados:
     - **Procedimiento**. Detalles sobre el procedimiento de contratación, extraídos de la sección de análisis
     - **Ambito_geografico**. Información sobre el ámbito geográfico al que se dirige el anuncio, por ejemplo, una comunidad autónoma o región
     - **Materias_CPV**. Datos sobre las materias, basados en el código CPV y la descripción asociada, que permite clasificar el tipo de obra o servicio
-    - **Codigos_CPV**. Campo complementario que contiene otros códigos CPV asociados al anuncio, extraídos de la sección de texto
+    - **Codigos_CPV**. Campo complementario que contiene otros códigos CPV asociados al anuncio, extraídos de la sección de texto, y concreta el tipo de CPV
     - **Observaciones**. Comentarios adicionales que pueden incluir notas o detalles relevantes sobre el anuncio
     - **Enlace HTML**. URL que dirige a la página completa y  detallada del anuncio, desde donde se han extraído los datos enriquecidos
 
