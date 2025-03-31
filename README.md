@@ -30,11 +30,11 @@ Scraper en Python para extraer anuncios de licitaciones y contrataciones diarias
 El proceso se organiza en cuatro apartados:
 
 - **Extracción y procesamiento de los anuncios diarios – función `obtener_anuncios`**  
-  - Convierte la fecha de entrada al formato deseado ("dd/mm/aaaa")
+  - Convierte la fecha de entrada al formato "dd/mm/aaaa"
   - Solicita la página diaria del BOE y, en caso de error (como 404), salta ese día sin interrumpir el flujo
   - Recorre el contenido de la página para actualizar la "Institucion" (cada `<h4>`) y extraer, para cada anuncio (elemento `<li>` con clase `dispo`), datos básicos: organismo responsable, objeto, expediente, enlace HTML y un valor inicial para "Tipo" (según el texto del anuncio)
   - Llama a las funciones `obtener_analisis` y `obtener_extra_texto` para complementar el anuncio con información adicional  
-  - **Validación del campo "Tipo"**: Antes de actualizar el campo "Tipo" con los datos obtenidos de "ANÁLISIS", se valida que el valor extraído sea exactamente "Licitación" o "Contratación". Sólo en ese caso se sobrescribe el valor inicial, garantizando que el campo "Tipo" contenga únicamente uno de esos dos valores
+  - **Validación del campo "Tipo"**: Antes de actualizar el campo "Tipo" con los datos obtenidos de "ANÁLISIS", se valida que el valor extraído sea "Licitación" o "Contratación". Sólo en ese caso se sobrescribe el valor inicial, garantizando que el campo "Tipo" contenga únicamente uno de esos dos valores
 
 - **Extracción de la sección “ANÁLISIS” – función `obtener_analisis`**  
   - Solicita la página detallada del anuncio y, mediante BeautifulSoup, busca el div con id `analisis`  
