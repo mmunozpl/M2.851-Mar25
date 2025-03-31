@@ -1,7 +1,7 @@
 """
 obtener_anuncios.py
 Este módulo define la función obtener_anuncios,
-que procesa la página diaria del BOE para extraer
+que procesa cada página diaria del BOE para extraer
 los anuncios publicados, combinando datos básicos y enriquecidos
 """
 
