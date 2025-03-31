@@ -70,7 +70,7 @@ El proceso se organiza en cuatro apartados:
 - **Timeout y Reintentos**. Cada solicitud tiene un timeout configurado y se implementan reintentos para gestionar errores específicos
 - **Delay entre Solicitudes**. Se introduce un delay para evitar saturar el servidor del BOE, respetando así las políticas de uso
 - **Manejo de Errores**. Se capturan y gestionan errores y excepciones, permitiendo que el proceso continúe sin interrumpirse
-- **Modularidad**. El código está organizado en módulos separados por función, lo que facilita el mantenimiento y la revisión
+- **Modularidad**. El código está organizado en módulos separados por función, facilitando el mantenimiento y la revisión
 
 ## Requisitos
 
