@@ -39,14 +39,12 @@ def main() -> None:
         "Organismo responsable",
         "Expediente",
         "Fecha",
-        "Modalidad",
         "Tipo",
         "Objeto",
         "Procedimiento",
         "Ambito_geografico",
         "Materias_CPV",
         "Codigos_CPV",
-        "Observaciones",
         "Enlace HTML"
     ]
     existing_cols = [col for col in column_order if col in df.columns]
