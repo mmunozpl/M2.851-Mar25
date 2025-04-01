@@ -18,7 +18,7 @@ def main() -> None:
     Función para extraer los datos diarios del BOE y generar el CSV final
     """
     # Se define el período: del 1 de enero de 2014 al 31 de diciembre de 2024
-    start_date = datetime(2024, 12, 1)
+    start_date = datetime(2014, 1, 1)
     end_date = datetime(2024, 12, 31)
     todos_anuncios = []
     current_date = start_date
