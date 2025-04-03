@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 from source.obtener_anuncios import obtener_anuncios
 
-REQUEST_DELAY: int = 0  # segundos
+REQUEST_DELAY: int = 3  # segundos
 
 def main() -> None:
     """
