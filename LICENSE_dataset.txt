@@ -1,15 +1,15 @@
-**Licencia CC0: Public Domain License**
+**Licencia CC0: Public Domain License**  
 
-Este dataset se libera bajo la licencia **CC0 (Public Domain License)**.
-Puedes copiar, modificar, distribuir y utilizar libremente el dataset sin necesidad de pedir permiso o atribuir la fuente. Esta licencia promueve el acceso abierto y la libre reutilización de la información, tanto en entornos académicos, empresariales o gubernamentales, como para cualquier otra finalidad.
+Este dataset se libera bajo la licencia **CC0 (Public Domain License)**.  
+Puedes copiar, modificar, distribuir y utilizar libremente el dataset sin necesidad de pedir permiso o atribuir la fuente. Esta licencia promueve el acceso abierto y la libre reutilización de la información, tanto en entornos académicos, empresariales o gubernamentales, como para cualquier otra finalidad.  
 
-**Amparo legal**
-De acuerdo con la Ley 37/2007, de 16 de noviembre, sobre la reutilización de la información del sector público (transposición de la Directiva 2003/98/CE), la información oficial del Boletín Oficial del Estado (BOE) se considera de dominio público y puede reutilizarse sin restricciones de copyright.
+**Amparo legal**  
+De acuerdo con la Ley 37/2007, de 16 de noviembre, sobre la reutilización de la información del sector público (transposición de la Directiva 2003/98/CE), la información oficial del Boletín Oficial del Estado (BOE) se considera de dominio público y puede reutilizarse sin restricciones de copyright.  
 
-**Fuente de los datos del dataset**
-Boletín Oficial del Estado. (2014–2024).
-Sección V. Anuncios – A. Contratación del Sector Público.
-Recuperados desde el 01-01-2014 al 31-12-2024 de [https://www.boe.es](https://www.boe.es)
+**Fuente de los datos del dataset**  
+Boletín Oficial del Estado. (2014–2024).  
+Sección V. Anuncios – A. Contratación del Sector Público.  
+Recuperados desde el 01-01-2014 al 31-12-2024 de [https://www.boe.es](https://www.boe.es)  
 
-Para más información, consulta
-[https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/)
+Para más información, consulta  
+[https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/)  
