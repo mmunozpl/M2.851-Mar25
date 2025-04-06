@@ -1,7 +1,7 @@
 """
 obtener_extra_texto.py
 Este módulo define la función obtener_extra_texto,
-que extrae información complementaria (sobre códigos CPV)
+que extrae información complementaria sobre códigos CPV
 de cada página detallada del anuncio del BOE
 """
 
@@ -14,7 +14,7 @@ REQUEST_TIMEOUT: int = 3
 def obtener_extra_texto(enlace_html: str) -> Dict[str, str]:
     """
     Extrae información adicional del bloque de texto
-    (normalmente con id "textoxslt") de cada página del anuncio
+    id "textoxslt" de cada página del anuncio
 
     Args:
         enlace_html (str): URL de la página del anuncio
